@@ -1,6 +1,6 @@
 # BuycraftAPI
 
-BuycraftAPI brings [Buycraft](https://buycraft.net) and Java together. This is made for developers that want to use Buycraft on their Minecraft servers just to show last donators on signs or create cool statues without all the Buycraft plugin.
+BuycraftAPI brings [Buycraft](https://buycraft.net) and Java together. This is made for developers that want to use Buycraft on their Minecraft servers just to show last donators on signs or create cool statues without using the hole Buycraft plugin.
 
 ## Installation
 BuycraftAPI is distributed as a [maven](http://maven.apache.org/) project. To compile it and install it in your local Maven repository (.m2) use:
@@ -16,7 +16,9 @@ To start getting some data you need to create an instance of `BuycraftAPI` where
 
 Then, you can change if you want the queries to be made via HTTPS or HTTP with `BuycraftAPI.setSecure(boolean)`. By default the API will use HTTPS.
 
-Now you can use all the methods inside this class. If you don't know how something works, read the Javadocs, all the methods are well documented
+Now you can use all the methods inside this class. If you don't know how something works, read the Javadocs, all the methods are well documented.
+
+The methods in this API are blocking, so that means you will have to run the methods in another `Thread`, or if you are using [Spigot](https://spigotmc.org) just use `BukkitRunnable.runTaskAsynchronously(Plugin)`
 
 ## Examples
 Get 10 latest people that bought a package and how much they payed:
