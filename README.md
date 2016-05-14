@@ -16,7 +16,7 @@ To start getting some data you need to create an instance of `BuycraftAPI` where
 
 Then, you can change if you want the queries to be made via HTTPS or HTTP with `BuycraftAPI.setSecure(boolean)`. By default the API will use HTTPS.
 
-Now you can use all the methods inside this class.
+Now you can use all the methods inside this class. If you don't know how something works, read the Javadocs, all the methods are well documented
 
 ## Examples
 Get 10 latest people that bought a package and how much they payed:
