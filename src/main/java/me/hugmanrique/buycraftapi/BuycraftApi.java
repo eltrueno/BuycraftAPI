@@ -361,6 +361,11 @@ public class BuycraftApi {
         return matcher.group(index)!=null&&!matcher.group(index).isEmpty();
     }
 
+    /**
+     * Changes if the petitions should be made with http or https
+     * @param secure If you want to use https
+     */
+
     public void setSecure(boolean secure){
         url = "http" + (secure ? "s" : "") + "://plugin.buycraft.net";
     }
@@ -372,6 +377,4 @@ public class BuycraftApi {
             return null;
         }
     }
-
-
 }
