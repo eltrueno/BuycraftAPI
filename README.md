@@ -55,4 +55,4 @@ try {
 This project is licensed under the GNU General Public License. You can read all the license terms [here](LICENSE)
 
 ## Donate
-If you think this project is useful for you or your server, please, consider donating [here](https://paypal.me/Hugmanrique)
+If you think this project is useful for you or your server, please, consider donating [here](https://hugmanrique.me/donar)
